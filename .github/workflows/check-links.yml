@@ -1,0 +1,21 @@
+name: Check links
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # Mondays 03:00 UTC
+  workflow_dispatch:
+permissions:
+  issues: write
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 check_links.py
+      - name: Open an issue if something is dead
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s dead_links.md ]; then
+            gh issue create --title "Link check $(date +%F)" --body-file dead_links.md
+          fi

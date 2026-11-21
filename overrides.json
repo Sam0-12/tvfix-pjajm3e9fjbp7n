@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "backups": {
+    "DD National": [
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8"
+    ],
+    "DD News": [
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8"
+    ],
+    "DD India": [
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index.m3u8"
+    ],
+    "DD Bharati": [
+      "https://cdn.pishow.tv/ott/live/10/master.m3u8",
+      "https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8"
+    ],
+    "DD Sahyadri": [
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index.m3u8"
+    ],
+    "Songdew TV": [
+      "https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+    ],
+    "Swadesh News": [
+      "https://cdn.pishow.tv/ott/live/465/master.m3u8"
+    ],
+    "Swaraj Express SMBC": [
+      "https://cdn.pishow.tv/ott/live/477/master.m3u8"
+    ],
+    "Aradana TV": [
+      "https://yuppnimrestreammum.akamaized.net/181224/smil:aradanatv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "https://cdn.pishow.tv/ott/live/961/master.m3u8"
+    ],
+    "Astroscience": [
+      "https://yuppnimrestreammum.akamaized.net/181224/smil:astrotech.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+    ],
+    "Awaaz India TV": [
+      "http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8"
+    ],
+    "Bollygold": [
+      "https://d3hhl0gm4nhbkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ovyg974fme8fw/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN4000600Q&ads.ssai_vendor=SSSLIVE&pb_type=pb-ovyg974fme8fw_cloudfront"
+    ],
+    "Boogle Bollywood": [
+      "https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+    ],
+    "NH BollyFlix": [
+      "https://d1bnb20pevkrom.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-8xs28buuqfw19/BollyFlix_IN.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN46000140Q&ads.ssai_vendor=SSSLIVE&pb_type=pb-8xs28buuqfw19_cloudfront"
+    ],
+    "NH BollyRaga": [
+      "https://d3q7boydbwbbm0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-herfuyvo6swzh/BollyRaga_IN.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN460001373&ads.ssai_vendor=SSSLIVE&pb_type=pb-herfuyvo6swzh_cloudfront"
+    ],
+    "Jan TV": [
+      "https://cdn.pishow.tv/ott/live/10004/master.m3u8"
+    ],
+    "Goldmines 2": [
+      "https://fta.ektv.in/live/46/46_0.m3u8"
+    ]
+  },
+  "remove_streams": [],
+  "streams": {},
+  "add": [],
+  "rename": {},
+  "move": {},
+  "hide": [],
+  "logos": {},
+  "epg": [
+    {
+      "url": "https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
+    },
+    {
+      "url": "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
+    },
+    {
+      "url": "https://epg.pw/xmltv/epg_IN.xml.gz"
+    },
+    {
+      "url": "https://www.open-epg.com/files/india4.xml.gz",
+      "shift": 330
+    }
+  ]
+}
