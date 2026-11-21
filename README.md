@@ -22,9 +22,10 @@ is ignored and the last good copy is kept.
 
 Channel names are matched ignoring case, `HD`, brackets and punctuation ("DD News" matches "DD News HD").
 
-A weekly GitHub Action (`check_links.py`) opens an issue listing dead links and channels with nothing
-working. It only reports: GitHub's servers are outside India, so a geo-blocked stream looks dead from
-there. Put a link in `remove_streams` yourself once you know it is dead on the TV.
+`check_links.py` tests every link and lists dead ones. It is not scheduled: GitHub's servers are in the
+US, so it reports geo-blocked streams as dead. Run it by hand from the Actions tab if you want, or scan
+from a home connection and edit this file by hand. Put a link in `remove_streams` once you know it is
+dead on the TV. `scan.yml` runs on every push and fails if the file holds a subscription link.
 
 ## IPTV Live (paid subscription)
 
