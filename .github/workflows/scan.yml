@@ -1,0 +1,11 @@
+name: Scan for subscription links
+on:
+  push:
+    paths: ['overrides.json']
+  pull_request:
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scan_secrets.py

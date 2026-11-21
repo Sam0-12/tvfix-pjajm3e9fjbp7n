@@ -57,24 +57,32 @@
   },
   "remove_streams": [],
   "streams": {},
-  "add": [],
   "rename": {},
-  "move": {},
   "hide": [],
   "logos": {},
-  "epg": [
-    {
-      "url": "https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
+  "apps": {
+    "live-tv": {
+      "epg": [
+        {
+          "url": "https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
+        },
+        {
+          "url": "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
+        },
+        {
+          "url": "https://epg.pw/xmltv/epg_IN.xml.gz"
+        },
+        {
+          "url": "https://www.open-epg.com/files/india4.xml.gz",
+          "shift": 330
+        }
+      ],
+      "move": {},
+      "add": []
     },
-    {
-      "url": "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
-    },
-    {
-      "url": "https://epg.pw/xmltv/epg_IN.xml.gz"
-    },
-    {
-      "url": "https://www.open-epg.com/files/india4.xml.gz",
-      "shift": 330
+    "iptv-live": {
+      "move": {},
+      "add": []
     }
-  ]
+  }
 }

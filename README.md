@@ -17,6 +17,7 @@ is ignored and the last good copy is kept.
 | `hide` | `["Channel name"]` remove a channel from the list |
 | `logos` | `{"Channel name": "https://logo.png"}` |
 | `epg` | `[{"url": "...xml.gz", "shift": minutes}]` TV guide files, replacing the built-in four |
+| `apps` | `{"live-tv": {...}, "iptv-live": {...}}` the same keys again, applied only to that app (Live TV and its parents' version are `live-tv`). Maps are merged, lists joined. Use it for what differs: `move` and `add` (the apps' sections differ) and `epg` |
 | `catalog` | https address of a different playlist catalog CSV |
 
 Channel names are matched ignoring case, `HD`, brackets and punctuation ("DD News" matches "DD News HD").
@@ -24,3 +25,12 @@ Channel names are matched ignoring case, `HD`, brackets and punctuation ("DD New
 A weekly GitHub Action (`check_links.py`) opens an issue listing dead links and channels with nothing
 working. It only reports: GitHub's servers are outside India, so a geo-blocked stream looks dead from
 there. Put a link in `remove_streams` yourself once you know it is dead on the TV.
+
+## IPTV Live (paid subscription)
+
+IPTV Live reads this same file, but **never put a subscription link in it**: the repo is public. The
+subscription's server, username and password are typed into the app on the TV and stay there. The
+file can only add free backup streams (`backups`, placed after the paid stream), rename, move, hide or
+re-logo channels, and so on. The `scan.yml` action fails a push that contains something that looks like
+an Xtream link (`/live/user/pass/id.ts`, `get.php`, `username=`...). `epg` there accepts plain
+addresses only (a file with a `shift` is skipped), and `catalog` is ignored.

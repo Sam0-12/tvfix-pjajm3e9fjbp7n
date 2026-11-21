@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: python3 scan_secrets.py
       - run: python3 check_links.py
       - name: Open an issue if something is dead
         env:
