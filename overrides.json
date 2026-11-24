@@ -198,7 +198,17 @@
   },
   "rename": {},
   "hide": [],
-  "logos": {},
+  "logos": {
+    "Star Plus": "https://dtil.tmsimg.com/assets/s143832_ld_h15_aa.png?lock=720x540",
+    "Star Gold": "https://dtil.tmsimg.com/assets/s143815_ld_h15_aa.png?lock=720x540",
+    "Aastha International": "https://i.imgur.com/IqgrV92.png",
+    "Mh 1 Prime": "https://dtil.tmsimg.com/assets/s143539_ld_h15_aa.png?lock=720x540",
+    "MH One Movies": "https://dtil.tmsimg.com/assets/s143539_ld_h15_aa.png?lock=720x540",
+    "News State Punjab Haryana Himachal": "https://i.imgur.com/dQLaY5N.png",
+    "Harvest USA": "https://i.imgur.com/Aoq6mpT.png",
+    "Colors MENA HD": "https://i.imgur.com/LjNFTdC.png",
+    "Zee Cinema APAC": "https://dtil.tmsimg.com/assets/s159104_ld_h15_aa.png?lock=720x540"
+  },
   "apps": {
     "live-tv": {
       "epg": [
