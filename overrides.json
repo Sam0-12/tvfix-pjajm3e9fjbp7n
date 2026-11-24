@@ -216,7 +216,8 @@
     "live-tv": {
       "epg": [
         {
-          "url": "https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
+          "url": "https://raw.githubusercontent.com/Sam0-12/tvfix-pjajm3e9fjbp7n/epg-data/epg.xml.gz",
+          "shift": 0
         },
         {
           "url": "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
@@ -227,6 +228,9 @@
         {
           "url": "https://www.open-epg.com/files/india4.xml.gz",
           "shift": 330
+        },
+        {
+          "url": "https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
         }
       ],
       "move": {},
