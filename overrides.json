@@ -194,6 +194,9 @@
     "Unique TV": [
       "https://fta.ektv.in/live/688/master.m3u8",
       "https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8"
+    ],
+    "Sony Marathi": [
+      "http://107.167.16.138/sonymarathi/index.m3u8?token=test"
     ]
   },
   "rename": {},
