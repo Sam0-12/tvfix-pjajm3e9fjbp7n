@@ -1,0 +1,94 @@
+{
+  "_help": "Sources of build_epg.py. Order = priority when two sources cover a channel equally. Per source: name, url, optional shift_minutes (minutes the file's times are AHEAD of what they claim; omit = work it out from the file, like the app), optional strip_prefix (regex removed from guide channel names, e.g. 'IN - '). Add a provider = add a line; a source that fails to download is skipped. Rejected after checking their times against JioTV: open-epg india3 and india5 (their times are off by 1.5 and 3.5 hours, in no fixed pattern). Check any new source the same way before adding it. Aliases map a guide channel's name key (name lower-cased, letters and digits only, 'hd' and (...) removed) to the key(s) of the channel as the app names it.",
+  "hours_before": 3,
+  "hours_after": 48,
+  "min_channels": 120,
+  "sources": [
+    {
+      "name": "jiotv",
+      "url": "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
+    },
+    {
+      "name": "epgshare01",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+    },
+    {
+      "name": "jiotv-mirror",
+      "url": "https://raw.githubusercontent.com/Babuperumana/JioTV-epg/main/filtered_epg.xml.gz"
+    },
+    {
+      "name": "iptv-epg",
+      "url": "https://iptv-epg.org/files/epg-in.xml.gz",
+      "strip_prefix": "^IN\\s*-\\s*"
+    },
+    {
+      "name": "epg.pw",
+      "url": "https://epg.pw/xmltv/epg_IN.xml.gz"
+    },
+    {
+      "name": "open-epg-4",
+      "url": "https://www.open-epg.com/files/india4.xml.gz",
+      "shift_minutes": 330
+    },
+    {
+      "name": "open-epg-1",
+      "url": "https://www.open-epg.com/files/india1.xml.gz"
+    },
+    {
+      "name": "tataplay",
+      "url": "https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
+    }
+  ],
+  "playlists": [
+    "https://raw.githubusercontent.com/iptv-org/iptv/HEAD/streams/in.m3u",
+    "https://iptv-org.github.io/iptv/categories/sports.m3u"
+  ],
+  "language_lists": [
+    "https://iptv-org.github.io/iptv/languages/eng.m3u",
+    "https://iptv-org.github.io/iptv/languages/hin.m3u",
+    "https://iptv-org.github.io/iptv/languages/mar.m3u"
+  ],
+  "extra_names": [
+    "Star Plus",
+    "Star Gold",
+    "Star Bharat",
+    "Sony Max",
+    "Sony Max 2",
+    "Sony Marathi"
+  ],
+  "aliases": {
+    "lokshahimarathi": "lokshahinews",
+    "dangal": "dangaltv",
+    "aastha": "aasthasd",
+    "adhyatmatv": "adhyatmtv",
+    "dharamsandesh": "dharmsandesh",
+    "harekrsna": "harekrsnatv",
+    "sanskar": "sanskartv",
+    "santvani": "santvanichannel",
+    "epicbharat": "epicbharatdigital",
+    "epictv": "epictvdigital",
+    "epicmusic": "epicmusicdigital",
+    "shemaroofilmygaane": "shemaroofilmigaane",
+    "set": [
+      "sonyentertainment",
+      "sonyentertainmenttelevision"
+    ],
+    "aradhanatv": "aradanatv",
+    "awakening": "awakeningtv",
+    "bhaktisagartv": "bhaktisagar",
+    "mangalmaylive": "mangalmaytv",
+    "mh1shraddha": "mhoneshraddha",
+    "peaceofmind": "peaceofmindtv",
+    "gangaur": "gangaurtv",
+    "newsstatempcg": "newsstatempchg",
+    "newsstateukup": "newsstateupuk",
+    "samacharplus": "samacharplus24x7",
+    "docubay": "docubaytv",
+    "prarthanabhawan": "prarthanabhawantv",
+    "sarvdharamsangam": "sarvdharmsangam",
+    "ddsports": "ddsportssd",
+    "sonysportsten3hindistb": "sonysportsten3hindi",
+    "khabarainabhitak": "khabrainabhitak",
+    "news18mpchhattisgarh": "news18madhyapradeshchhattisgarh"
+  }
+}
