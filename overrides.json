@@ -56,7 +56,146 @@
     ]
   },
   "remove_streams": [],
-  "streams": {},
+  "streams": {
+    "9X Jhakaas": [
+      "https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8"
+    ],
+    "Aradana TV": [
+      "https://yuppnimrestreammum.akamaized.net/181224/smil:aradanatv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "https://cdn.pishow.tv/ott/live/961/master.m3u8"
+    ],
+    "B4U Kadak": [
+      "https://amg01408-amg01408c6-amgplt0747.playout.now3.amagi.tv/b4ua001/playlist.m3u8",
+      "https://cdn.pishow.tv/ott/live/227/master.m3u8",
+      "https://fta.ektv.in/live/44/44_0.m3u8",
+      "https://mumt06.tangotv.in/qYyB8fXVB4UKADAK/index.m3u8",
+      "https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8",
+      "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8"
+    ],
+    "B4U Movies": [
+      "https://amg01408-amg01408c7-amgplt0747.playout.now3.amagi.tv/b4umo001/playlist.m3u8",
+      "https://cdn.pishow.tv/ott/live/419/master.m3u8",
+      "https://fta.ektv.in/live/43/43_0.m3u8",
+      "https://mumt06.tangotv.in/qYyB8fXVB4UMOVIES/index.m3u8",
+      "https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8"
+    ],
+    "B4U Music": [
+      "https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8",
+      "https://cdn.pishow.tv/ott/live/415/master.m3u8",
+      "https://mumbai-edge.smartplaytv.in/B4uMusic/index.m3u8"
+    ],
+    "Bharat Express": [
+      "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e029a22c-cbd9-493b-9b37-e7f0cabe78cc/index.m3u8",
+      "https://cdn.pishow.tv/ott/live/1139/master.m3u8",
+      "https://fta.ektv.in/live/736/master.m3u8",
+      "https://mumt07.tangotv.in/zHjX9OFlBHARATEXPRESS/index.m3u8",
+      "https://stream1.livebox.co.in/VCAREhls/live.m3u8"
+    ],
+    "Bharat Samachar": [
+      "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
+      "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
+      "https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8"
+    ],
+    "Bollygold": [
+      "https://d3hhl0gm4nhbkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ovyg974fme8fw/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN4000600Q&ads.ssai_vendor=SSSLIVE&pb_type=pb-ovyg974fme8fw_cloudfront"
+    ],
+    "BSTV": [
+      "https://zkpywwqbybeg-hls-live.5centscdn.com/bstv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
+      "https://mumt07.tangotv.in/zHjX9OFlBSTV/index.m3u8"
+    ],
+    "DD National": [
+      "https://fta.ektv.in/live/15/master.m3u8",
+      "https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8",
+      "https://streams.tangotv.in/DDNATIONALHD/ORIGIN/index.m3u8",
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8"
+    ],
+    "DD Sahyadri": [
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index.m3u8"
+    ],
+    "Fakt Marathi": [
+      "https://mumt07.tangotv.in/zHjX9OFlFAKTMARATHI/index.m3u8"
+    ],
+    "Goldmines": [
+      "https://mumt04.tangotv.in/m18aqlK4GOLDMINES/index.m3u8",
+      "https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8",
+      "https://tvsen6.aynaott.com/hKrngve2/index.m3u8"
+    ],
+    "Goldmines 2": [
+      "https://samitaorigin.tangotv.in/GOLDMINES2/SAMITAORIGIN/index.m3u8",
+      "https://fta.ektv.in/live/46/46_0.m3u8"
+    ],
+    "Goldmines Bollywood": [
+      "https://samitaorigin.tangotv.in/GOLDMINESBOLLYWOOD/SAMITAORIGIN/index.m3u8",
+      "https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8"
+    ],
+    "Goldmines Movies": [
+      "https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8",
+      "https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8"
+    ],
+    "Hosanna TV Hindi": [
+      "https://ktismaservers.in:3466/live/hosannattvhindhilive.m3u8"
+    ],
+    "Manoranjan Grand": [
+      "https://fta.ektv.in/live/19/master.m3u8",
+      "https://mumt06.tangotv.in/qYyB8fXVMANORANJANGRAND/index.m3u8",
+      "https://streams.tangotv.in/MANORANJANGRAND/ORIGIN/index.m3u8"
+    ],
+    "Manoranjan TV": [
+      "https://fta.ektv.in/live/23/master.m3u8",
+      "https://mumt04.tangotv.in/m18aqlK4MANORANJANTV/index.m3u8",
+      "https://streams.tangotv.in/MANORANJANTV/ORIGIN/index.m3u8",
+      "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8"
+    ],
+    "NDTV Good Times": [
+      "https://cdn.pishow.tv/ott/live/1285/master.m3u8",
+      "https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8"
+    ],
+    "News State MP & CHG": [
+      "https://prasarbharti-nn.vidgyor.com/nntv/nnmp/index.m3u8",
+      "https://mumt01.tangotv.in/O5aw8Zn3NEWSSTATEMPCG/index.m3u8"
+    ],
+    "News State Punjab Haryana Himachal": [
+      "https://prasarbharti-nn.vidgyor.com/nntv/nnpunj/index.m3u8",
+      "https://fta.ektv.in/live/732/master.m3u8"
+    ],
+    "News State UP & UK": [
+      "https://prasarbharti-nn.vidgyor.com/nntv/nnup/index.m3u8",
+      "https://fta.ektv.in/live/302/master.m3u8",
+      "https://mumt07.tangotv.in/zHjX9OFlNEWSSTATEUPUK/index.m3u8"
+    ],
+    "NewsX": [
+      "https://fta.ektv.in/live/603/master.m3u8",
+      "https://mumt01.tangotv.in/O5aw8Zn3NEWSX/index.m3u8"
+    ],
+    "NH BollyFlix": [
+      "https://d1bnb20pevkrom.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-8xs28buuqfw19/BollyFlix_IN.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN46000140Q&ads.ssai_vendor=SSSLIVE&pb_type=pb-8xs28buuqfw19_cloudfront"
+    ],
+    "NH BollyRaga": [
+      "https://d3q7boydbwbbm0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-herfuyvo6swzh/BollyRaga_IN.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN460001373&ads.ssai_vendor=SSSLIVE&pb_type=pb-herfuyvo6swzh_cloudfront"
+    ],
+    "Q TV": [
+      "https://fta.ektv.in/live/25/master.m3u8",
+      "https://samitaorigin.tangotv.in/THEQ/SAMITAORIGIN/index.m3u8",
+      "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8"
+    ],
+    "Republic Bharat": [
+      "https://cdn.pishow.tv/ott/live/1053/master.m3u8",
+      "https://fta.ektv.in/live/296/master.m3u8",
+      "https://mumt06.tangotv.in/qYyB8fXVREPUBLICBHARAT/index.m3u8",
+      "https://streams.tangotv.in/REPUBLICBHARAT/ORIGIN/index.m3u8",
+      "https://d2lk5u59tns74c.cloudfront.net/out/v1/7e8b490d6b9c4013a3e3e874aa352212/index.m3u8"
+    ],
+    "Rongeen TV": [
+      "https://stream.ottlive.co.in/rongeentv/index.m3u8",
+      "https://fta.ektv.in/live/202/master.m3u8",
+      "https://mumbai-edge.smartplaytv.in/RongeenTV/index.m3u8",
+      "https://mumt05.tangotv.in/87NeALx2RONGEENTV/index.m3u8"
+    ],
+    "Unique TV": [
+      "https://fta.ektv.in/live/688/master.m3u8",
+      "https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8"
+    ]
+  },
   "rename": {},
   "hide": [],
   "logos": {},
