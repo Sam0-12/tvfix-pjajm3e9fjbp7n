@@ -237,6 +237,10 @@
       "add": []
     },
     "iptv-live": {
+      "epg": [
+        "https://raw.githubusercontent.com/Sam0-12/tvfix-pjajm3e9fjbp7n/epg-data/epg.xml.gz",
+        "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
+      ],
       "move": {},
       "add": []
     }
