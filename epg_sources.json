@@ -1,5 +1,5 @@
 {
-  "_help": "Sources of build_epg.py. Order = priority when two sources cover a channel equally. Per source: name, url, optional shift_minutes (minutes the file's times are AHEAD of what they claim; omit = work it out from the file, like the app), optional strip_prefix (regex removed from guide channel names, e.g. 'IN - '). Add a provider = add a line; a source that fails to download is skipped. Rejected after checking their times against JioTV: open-epg india3 and india5 (their times are off by 1.5 and 3.5 hours, in no fixed pattern). Check any new source the same way before adding it. Aliases map a guide channel's name key (name lower-cased, letters and digits only, 'hd' and (...) removed) to the key(s) of the channel as the app names it.",
+  "_help": "Sources of build_epg.py. Order = priority when two sources cover a channel equally. Per source: name, url, optional shift_minutes (minutes the file's times are AHEAD of what they claim; omit = work it out from the file, like the app), optional strip_prefix (regex removed from guide channel names, e.g. 'IN - '). Add a provider = add a line; a source that fails to download is skipped. Rejected after checking their times against JioTV: open-epg india3 and india5 (their times are off by 1.5 and 3.5 hours, in no fixed pattern). Check any new source the same way before adding it. Aliases map a guide channel's name key (name lower-cased, letters and digits only, 'hd' and (...) removed) to the key(s) of the channel as the app names it. Per source: optional rename {exact guide channel name: the app's name} with only_renamed true = read only those channels (for foreign guides, whose other channels must not be matched to Indian channels of the same name).",
   "hours_before": 3,
   "hours_after": 48,
   "min_channels": 120,
@@ -37,6 +37,32 @@
     {
       "name": "tataplay",
       "url": "https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
+    },
+    {
+      "name": "open-epg-us5",
+      "url": "https://www.open-epg.com/files/unitedstates5.xml.gz",
+      "rename": {
+        "CNBC.us": "CNBC",
+        "Bloomberg Television.us": "Bloomberg Television",
+        "Fox Business Network.us": "Fox Business Network"
+      },
+      "only_renamed": true
+    },
+    {
+      "name": "open-epg-uk1",
+      "url": "https://www.open-epg.com/files/unitedkingdom1.xml.gz",
+      "rename": {
+        "CNBC.uk": "CNBC Europe"
+      },
+      "only_renamed": true
+    },
+    {
+      "name": "epg.pw-gb",
+      "url": "https://epg.pw/xmltv/epg_GB.xml.gz",
+      "rename": {
+        "CNBC HD": "CNBC Europe"
+      },
+      "only_renamed": true
     }
   ],
   "playlists": [
@@ -54,7 +80,11 @@
     "Star Bharat",
     "Sony Max",
     "Sony Max 2",
-    "Sony Marathi"
+    "Sony Marathi",
+    "CNBC",
+    "CNBC Europe",
+    "Bloomberg Television",
+    "Fox Business Network"
   ],
   "aliases": {
     "lokshahimarathi": "lokshahinews",

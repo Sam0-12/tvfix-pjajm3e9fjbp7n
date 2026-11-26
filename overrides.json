@@ -210,7 +210,11 @@
     "News State Punjab Haryana Himachal": "https://i.imgur.com/dQLaY5N.png",
     "Harvest USA": "https://i.imgur.com/Aoq6mpT.png",
     "Colors MENA HD": "https://i.imgur.com/LjNFTdC.png",
-    "Zee Cinema APAC": "https://dtil.tmsimg.com/assets/s159104_ld_h15_aa.png?lock=720x540"
+    "Zee Cinema APAC": "https://dtil.tmsimg.com/assets/s159104_ld_h15_aa.png?lock=720x540",
+    "CNBC": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",
+    "CNBC Europe": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",
+    "Bloomberg Television": "https://i.imgur.com/OuogLHx.png",
+    "Fox Business Network": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png"
   },
   "apps": {
     "live-tv": {

@@ -123,11 +123,16 @@ def read_source(src, wanted, aliases, w0, w1):
     xml = (gzip.decompress(raw) if raw[:2] == b"\x1f\x8b" else raw).decode("utf-8", "ignore")
     shift = src["shift_minutes"] * 60000 if "shift_minutes" in src else label_shift_ms(raw, xml)
     strip = re.compile(src["strip_prefix"]) if src.get("strip_prefix") else None
+    rename = src.get("rename", {})   # exact guide channel name -> the app's name (only these are read)
     id_keys = {}   # guide channel id -> our keys
     for m in _chan.finditer(xml):
         for n in _dn.finditer(m.group(2)):
             name = re.sub(r"\.in$", "", text(n.group(1)))
-            if strip:
+            if name in rename:
+                name = rename[name]
+            elif src.get("only_renamed"):
+                continue   # a foreign guide: its other channels must not be matched to Indian ones of the same name
+            elif strip:
                 name = strip.sub("", name)
             k = ckey(name)
             if not k:
@@ -160,6 +165,8 @@ def read_source(src, wanted, aliases, w0, w1):
         if not t:
             continue
         title = text(t.group(1))
+        if src.get("only_renamed") and title.lower() in ("no data", "no information"):
+            continue
         d = _desc.search(m.group(2))
         desc = text(d.group(1)) if d else ""
         semi = desc.find(";")
