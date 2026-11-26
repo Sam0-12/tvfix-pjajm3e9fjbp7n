@@ -19,6 +19,7 @@ is ignored and the last good copy is kept.
 | `epg` | `[{"url": "...xml.gz", "shift": minutes}]` TV guide files, replacing the built-in four. Live TV's list starts with this repo's merged guide (see below), then JioTV, epg.pw, open-epg and the dead-but-kept Tata Play as fallbacks |
 | `apps` | `{"live-tv": {...}, "iptv-live": {...}}` the same keys again, applied only to that app (Live TV and its parents' version are `live-tv`). Maps are merged, lists joined. Use it for what differs: `move` and `add` (the apps' sections differ) and `epg` |
 | `live_extra` | **IPTV Live only** (put it under `apps` > `iptv-live`): `[{"name": "CNBC", "section": "Business News", "aliases": ["cnbc us"]}]` subscription channels to show, by name only. Taken from any of the provider's categories, UK / US feeds included, in the given section (an unknown section is skipped). Needs the app's Account > Reload lists |
+| `voice_aliases` | `{"zed": "zee", "sahadree": "sahyadri"}` words a speech recognizer writes wrongly -> what channel names call them, one lower-case word at a time. Added to the apps' built-in list (colours -> colors, zed -> zee, aj tak -> aaj tak, number words), tried only when what was said finds no channel. Both Live TV and IPTV Live read it |
 | `catalog` | https address of a different playlist catalog CSV |
 
 Channel names are matched ignoring case, `HD`, brackets and punctuation ("DD News" matches "DD News HD").
