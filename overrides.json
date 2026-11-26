@@ -242,7 +242,13 @@
         "https://mitthu786.github.io/tvepg/jiotv/epg.xml.gz"
       ],
       "move": {},
-      "add": []
+      "add": [],
+      "live_extra": [
+        {"name": "CNBC", "section": "Business News", "aliases": ["cnbc us", "cnbc usa"]},
+        {"name": "CNBC Europe", "section": "Business News", "aliases": ["cnbc eu", "cnbc uk"]},
+        {"name": "Bloomberg Television", "section": "Business News", "aliases": ["bloomberg", "bloomberg tv us"]},
+        {"name": "Fox Business Network", "section": "Business News", "aliases": ["fox business", "fbn"]}
+      ]
     }
   }
 }
